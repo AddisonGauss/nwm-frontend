@@ -1,0 +1,51 @@
+export const homeObjOne = {
+  id: "about",
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
+  topLine: "About our company",
+  headline: "Established Reputation",
+  description:
+    "Jeremy has been providing landscaping services for over 20 years",
+  imgStart: false,
+  img: "./images/Texas_Sabal_may_hurricane_cut_transport-431x384.jpg",
+  alt: "online",
+  dark: true,
+  primary: true,
+  darkText: true,
+  buttonLabel: "Read more",
+}
+
+// export const homeObjTwo = {
+//   id: "discover",
+//   lightBg: true,
+//   lightText: false,
+//   lightTextDesc: false,
+//   topLine: "Data",
+//   headline: "Get your business's stats",
+//   description: "Something about the importance of stats goes here",
+//   imgStart: true,
+//   img: "/images/stats_trends.svg",
+//   alt: "stats",
+//   dark: false,
+//   primary: false,
+//   darkText: true,
+//   buttonLabel: "Section Button",
+// }
+
+// export const homeObjThree = {
+//   id: "services",
+//   lightBg: true,
+//   lightText: false,
+//   lightTextDesc: false,
+//   topLine: "Heath",
+//   headline: "Worldwide health experts",
+//   description: "Description about a health service here",
+//   imgStart: false,
+//   img: require("/images/doctors.svg"),
+//   alt: "doctors",
+//   dark: false,
+//   primary: false,
+//   darkText: true,
+//   buttonLabel: "Section Button",
+// }
