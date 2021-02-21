@@ -41,8 +41,11 @@ export const ImageBg = styled.img`
   filter: grayscale(100%);
 
   @media screen and (max-width: 480px) {
-    width: auto;
-    height: auto;
+    object-fit: cover;
+    -o-object-fit: cover;
+    border-radius: 0;
+    /* width: auto;
+    height: auto; */
   }
 `
 

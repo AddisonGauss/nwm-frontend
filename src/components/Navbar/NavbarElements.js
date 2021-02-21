@@ -38,7 +38,7 @@ export const PhoneNumberContainerOnSmallScreens = styled.div`
     position: sticky;
     top: 85px;
     width: 100%;
-    background: #3a7257;
+    background: #60ce29;
     z-index: 3;
   }
 `
@@ -47,15 +47,16 @@ export const NavPhoneNumberForSmallScreens = styled.a`
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #60ce29;
+
+  color: #3a7257;
   cursor: pointer;
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: bold;
   text-decoration: none;
   white-space: nowrap;
-  margin-right: 24px;
 
   &:hover {
+    text-decoration: none;
     transition: all 0.2s ease-in-out;
     color: #fff;
   }

@@ -15,6 +15,7 @@ import {
   NavPhoneNumber,
   PhoneNumberContainerOnSmallScreens,
   NavPhoneNumberContainer,
+  NavPhoneNumberForSmallScreens,
 } from "./NavbarElements"
 
 const Navbar = ({ toggle }) => {
@@ -112,10 +113,10 @@ const Navbar = ({ toggle }) => {
         </NavbarContainer>
       </Nav>
       <PhoneNumberContainerOnSmallScreens>
-        <NavPhoneNumber href="tel:+7132919466">
+        <NavPhoneNumberForSmallScreens href="tel:+7132919466">
           <FiPhoneCall style={{ margin: "0 10px" }} />
           713-291-9466
-        </NavPhoneNumber>
+        </NavPhoneNumberForSmallScreens>
       </PhoneNumberContainerOnSmallScreens>
     </>
   )
