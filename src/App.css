@@ -17,6 +17,10 @@ html {
   position: relative;
 }
 
+.form-label {
+  font-size: 24px;
+}
+
 .cb-centermode {
   margin-bottom: 20px;
   display: block;

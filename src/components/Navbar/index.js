@@ -60,18 +60,6 @@ const Navbar = ({ toggle }) => {
             </NavItem>
             <NavItem>
               <NavLinks
-                to="products"
-                smooth={true}
-                duration={500}
-                spy={true}
-                exact="true"
-                offset={-85}
-              >
-                Products
-              </NavLinks>
-            </NavItem>
-            <NavItem>
-              <NavLinks
                 to="services"
                 smooth={true}
                 duration={500}
@@ -84,26 +72,42 @@ const Navbar = ({ toggle }) => {
             </NavItem>
             <NavItem>
               <NavLinks
-                to="reviews"
+                to="testimonials"
                 smooth={true}
                 duration={500}
                 spy={true}
                 exact="true"
                 offset={-85}
               >
-                Reviews
+                Testimonials
               </NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="contact">Contact</NavLinks>
+              <NavLinks
+                to="products"
+                smooth={true}
+                duration={500}
+                spy={true}
+                exact="true"
+                offset={-85}
+              >
+                Products
+              </NavLinks>
             </NavItem>
-            {/* <NavItem>
-              <NavLinks to="signup">Sign Up</NavLinks>
-            </NavItem> */}
+            <NavItem>
+              <NavLinks
+                to="contact"
+                smooth={true}
+                duration={500}
+                spy={true}
+                exact="true"
+                offset={-85}
+              >
+                Contact
+              </NavLinks>
+            </NavItem>
           </NavMenu>
-          {/* <NavBtn>
-            <NavBtnLink to="/signin">Sign In</NavBtnLink>
-          </NavBtn> */}
+
           <NavPhoneNumberContainer>
             <NavPhoneNumber href="tel:+7132919466">
               <FiPhoneCall style={{ margin: "0 10px" }} />

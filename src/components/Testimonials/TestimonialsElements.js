@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-export const ServicesContainer = styled.div`
+export const TestimonialsContainer = styled.div`
   height: 100vh;
   position: relative;
   display: flex;
@@ -18,9 +18,9 @@ export const ServicesContainer = styled.div`
   }
 `
 
-export const ServicesBg = styled.div`
+export const TestimonialsBg = styled.div`
   position: absolute;
-  background: #3a7257;
+  background: #f9f9f9;
   top: 0;
   right: 0;
   bottom: 0;
@@ -30,17 +30,26 @@ export const ServicesBg = styled.div`
   overflow: hidden;
 `
 
-export const ImageBg = styled.img`
+export const TestimonialsImageBg = styled.img`
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  -o-object-fit: cover;
+  border-radius: 50%;
+  object-fit: contain;
+  -o-object-fit: contain;
   opacity: 0.045;
   -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
   filter: grayscale(100%);
+
+  @media screen and (max-width: 480px) {
+    object-fit: cover;
+    -o-object-fit: cover;
+    border-radius: 0;
+    /* width: auto;
+    height: auto; */
+  }
 `
 
-export const ServicesContent = styled.div`
+export const TestimonialsHeader = styled.div`
   z-index: 3;
   max-width: 1200px;
   position: relative;
@@ -52,7 +61,7 @@ export const ServicesContent = styled.div`
   align-items: center;
 `
 
-export const ServicesWrapper = styled.div`
+export const TestimonialsWrapper = styled.div`
   max-width: 1400px;
   margin: 0 auto;
   display: grid;
@@ -71,53 +80,63 @@ export const ServicesWrapper = styled.div`
   }
 `
 
-export const ServicesCard = styled.div`
+export const TestimonialsCard = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  border-radius: 10px;
+  border-radius: 50%;
   max-height: 375px;
-  /* padding: 30px; */
-  /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); */
+  padding: 30px;
+  /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);  */
   transition: all 0.2s ease-in-out;
 
-  &:hover {
+  /* &:hover {
     transform: scale() (1.5);
     transition: all 0.2s ease-in-out;
     cursor: pointer;
-  }
+  } */
 
   @media screen and (max-width: 480px) {
     width: 240px;
   }
 `
 
-export const ServicesIcon = styled.img`
+export const TestimonialsIconContainer = styled.div`
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -o-border-radius: 50%;
   height: 150px;
-  width: 100%;
-  margin-bottom: 10px;
-  object-fit: contain;
-  -object-fit: contain;
+  width: 150px;
+
+  overflow: hidden;
 `
 
-export const ServicesH1 = styled.h1`
+export const TestimonialsIcon = styled.img`
+  height: 100%;
+  width: 100%;
+  margin-bottom: 10px;
+  object-fit: cover;
+  -object-fit: cover;
+`
+
+export const TestimonialsH1 = styled.h1`
   font-size: 3rem;
-  color: #fff;
+  color: #3a7257;
   margin-bottom: 1rem;
   z-index: 1;
-  font-size: bold;
 
   @media screen and (max-width: 480px) {
     font-size: 2.5rem;
   }
 `
-export const ServicesH2 = styled.h2`
+export const TestimonialsH2 = styled.h2`
   font-size: 1.5rem;
   margin-bottom: 10px;
   text-align: center;
 
-  color: #fff;
+  color: #3a7257;
 
   @media screen and (max-width: 1000px) {
     font-size: 1.2rem;
@@ -127,13 +146,13 @@ export const ServicesH2 = styled.h2`
   }
 `
 
-export const ServicesP = styled.p`
+export const TestimonialsP = styled.p`
   font-style: italic;
-  font-size: 1.2rem;
+  font-size: 1rem;
   text-align: center;
-  color: #fff;
+  color: #3a7257;
 
   @media screen and (max-width: 480px) {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 `

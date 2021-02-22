@@ -50,6 +50,7 @@ export const VideoBg = styled.video`
 export const ImageBg = styled.img`
   width: 100%;
   height: 100%;
+
   object-fit: cover;
   -o-object-fit: cover;
 `

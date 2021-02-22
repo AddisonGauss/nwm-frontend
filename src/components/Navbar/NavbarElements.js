@@ -1,12 +1,11 @@
 import styled from "styled-components"
 import { Link as LinkRouter } from "react-router-dom"
 import { Link as LinkScroll } from "react-scroll"
-import "../../App.css"
 
 export const Nav = styled.nav`
   background: #fff;
   height: 85px;
-  margin-top: -80px;
+  margin-top: -85px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -117,8 +116,8 @@ export const NavMenu = styled.ul`
 export const NavItem = styled.li`
   color: #000;
   height: 85px;
-  &.hover {
-    border-bottom: 3px solid #60ce29;
+  &:hover {
+    color: #60ce29;
   }
 `
 
@@ -136,8 +135,10 @@ export const NavLinks = styled(LinkScroll)`
     border-bottom: 3px solid #60ce29;
   }
 
-  &.hover {
-    border-bottom: 3px solid #60ce29;
+  &:hover {
+    text-decoration: none;
+    color: #60ce29;
+    transition: 0.3s ease-out;
   }
 `
 

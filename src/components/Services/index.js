@@ -29,17 +29,19 @@ const Services = () => {
       </ServicesContent>
       <ServicesWrapper>
         <ServicesCard>
-          <ServicesIcon src="./images/Spruce_with_grass.svg" alt="grass" />
-          <ServicesH2>Landscape Design</ServicesH2>
+          <ServicesIcon src="./images/SylvesterTorrete1.jpg" alt="grass" />
+          <ServicesH2>Landscaping</ServicesH2>
           <ServicesP>
-            Build your dream lawn or garden with our designers.
+            Build your dream lawn or garden with our designers. Many choices of
+            sod and tree installations.
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
-          <ServicesIcon src="./images/grassland.svg" alt="sod" />
-          <ServicesH2>Sod Sales and Installation</ServicesH2>
+          <ServicesIcon src="./images/flower-bed.jpg" alt="sod" />
+          <ServicesH2>Hardscapes</ServicesH2>
           <ServicesP>
-            We Offer end to end services from mowing to pruning.
+            From raised flower beds to gravel, sometimes your property needs a
+            little hardiness.
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
@@ -47,9 +49,9 @@ const Services = () => {
             src="./images/Earth_Water_Recycling_Woofer.svg"
             alt="water"
           />
-          <ServicesH2>Water Management</ServicesH2>
+          <ServicesH2>Irrigation-Drainage</ServicesH2>
           <ServicesP>
-            Maximize water while ensuring the health of your plants
+            Maximize water while ensuring the health of your plants.
           </ServicesP>
         </ServicesCard>
       </ServicesWrapper>
