@@ -6,7 +6,7 @@ export const homeObjOne = {
   topLine: "About our company",
   headline: "Established Reputation",
   description:
-    "Jeremy has been providing landscaping services for over 20 years",
+    "Jeremy at Northside Wholesale Nursery has been providing landscaping services for over 20 years. We have experience with customers in Memorial, Katy, Atasocita, Spring Woodlands, Cypress, Montrose, and the downtown Houston area.",
   imgStart: false,
   img: "./images/Texas_Sabal_may_hurricane_cut_transport-431x384.jpg",
   alt: "online",

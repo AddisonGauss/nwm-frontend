@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const ContactContainer = styled.div`
-  height: auto;
+  height: 100vh;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -16,11 +16,11 @@ export const ContactContainer = styled.div`
   }
 
   @media screen and (max-width: 768px) {
-    height: 1100px;
+    height: 1400px;
   }
 
   @media screen and (max-width: 480px) {
-    height: 1300px;
+    height: 1500px;
   }
 `
 
@@ -85,7 +85,7 @@ export const Column1 = styled.div`
 export const TextWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  max-width: 300px;
+  max-width: 400px;
   padding-top: 0;
   padding-bottom: 60px;
 `

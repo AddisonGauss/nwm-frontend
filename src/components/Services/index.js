@@ -40,18 +40,16 @@ const Services = () => {
           <ServicesIcon src="./images/flower-bed.jpg" alt="sod" />
           <ServicesH2>Hardscapes</ServicesH2>
           <ServicesP>
-            From raised flower beds to gravel, sometimes your property needs a
-            little hardiness.
+            From raised flower beds to decorative pavers and walkways, sometimes
+            your property needs a little hardiness.
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
-          <ServicesIcon
-            src="./images/Earth_Water_Recycling_Woofer.svg"
-            alt="water"
-          />
-          <ServicesH2>Irrigation-Drainage</ServicesH2>
+          <ServicesIcon src="./images/delivery.jpg" alt="water" />
+          <ServicesH2>Delivery and Installation</ServicesH2>
           <ServicesP>
-            Maximize water while ensuring the health of your plants.
+            Our knowledge and expertise will accompany you in whatever product
+            you choose.
           </ServicesP>
         </ServicesCard>
       </ServicesWrapper>

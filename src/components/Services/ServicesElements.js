@@ -76,7 +76,6 @@ export const ServicesCard = styled.div`
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  border-radius: 10px;
   max-height: 375px;
   /* padding: 30px; */
   /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); */
@@ -94,11 +93,14 @@ export const ServicesCard = styled.div`
 `
 
 export const ServicesIcon = styled.img`
-  height: 150px;
-  width: 100%;
+  height: 175px;
+  width: 250px;
+  border-radius: 50%;
+  box-shadow: 0.25em 0.25em 0.75em rgba(0, 0, 0, 0.25),
+    0.125em 0.125em 0.25em rgba(0, 0, 0, 0.15);
   margin-bottom: 10px;
-  object-fit: contain;
-  -object-fit: contain;
+  object-fit: cover;
+  -object-fit: cover;
 `
 
 export const ServicesH1 = styled.h1`

@@ -18,6 +18,7 @@ const Contact = () => {
   return (
     <ContactContainer id="contact">
       <ContactH1>Contact</ContactH1>
+
       <ContactWrapper>
         <ContactRow>
           <Column1>
