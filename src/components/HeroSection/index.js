@@ -16,7 +16,6 @@ const HeroSection = () => {
   const [hover, setHover] = useState(false)
   const onHover = () => {
     setHover(!hover)
-    console.log(hover)
   }
 
   return (

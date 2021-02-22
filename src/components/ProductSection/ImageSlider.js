@@ -50,7 +50,7 @@ const ImageSlider = () => {
   return (
     <Slider {...settings}>
       <CardWrapper>
-        <Link to="/silver-date-palm">
+        <Link to="/product/1">
           <Card>
             <Card.Img variant="top" src="./images/silver-date-palm.jpg" />
             <Card.Body>
@@ -61,27 +61,31 @@ const ImageSlider = () => {
       </CardWrapper>
 
       <CardWrapper>
-        <Card>
-          <Card.Img
-            variant="top"
-            src="./images/Texas_Sabal_may_hurricane_cut_transport-431x384.jpg"
-          />
-          <Card.Body>
-            <Card.Title>Texas Sabal </Card.Title>
-          </Card.Body>
-        </Card>
+        <Link to="/product/2">
+          <Card>
+            <Card.Img
+              variant="top"
+              src="./images/Texas_Sabal_may_hurricane_cut_transport-431x384.jpg"
+            />
+            <Card.Body>
+              <Card.Title>Texas Sabal </Card.Title>
+            </Card.Body>
+          </Card>
+        </Link>
       </CardWrapper>
 
       <CardWrapper>
-        <Card>
-          <Card.Img
-            variant="top"
-            src="./images/Washingtonia_Mexana_Mar_30_2018_2_-273x256.jpg"
-          />
-          <Card.Body>
-            <Card.Title>Washingtonia Mexana</Card.Title>
-          </Card.Body>
-        </Card>
+        <Link to="/product/3">
+          <Card>
+            <Card.Img
+              variant="top"
+              src="/images/Washingtonia_Mexana_Mar_30_2018_2_-273x256.jpg"
+            />
+            <Card.Body>
+              <Card.Title>Washingtonia Mexana</Card.Title>
+            </Card.Body>
+          </Card>
+        </Link>
       </CardWrapper>
 
       <CardWrapper>
