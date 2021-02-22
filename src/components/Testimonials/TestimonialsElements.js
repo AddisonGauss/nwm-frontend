@@ -9,7 +9,7 @@ export const TestimonialsContainer = styled.div`
   align-items: center;
   z-index: 1;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1000px) {
     height: 1100px;
   }
 
