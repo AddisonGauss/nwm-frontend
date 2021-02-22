@@ -10,11 +10,11 @@ export const TestimonialsContainer = styled.div`
   z-index: 1;
 
   @media screen and (max-width: 1000px) {
-    height: 1100px;
+    height: 1300px;
   }
 
   @media screen and (max-width: 480px) {
-    height: 1300px;
+    height: 1500px;
   }
 `
 
