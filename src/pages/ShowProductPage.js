@@ -60,7 +60,7 @@ const ShowProductPage = ({ match }) => {
                 </Row>
               </ListGroup.Item>
               {arrayOfPrices.map((type, index) => (
-                <ListGroup.Item>
+                <ListGroup.Item key={index}>
                   <Row>
                     <Col>{type}</Col>
                     <Col>{product.price[type]}</Col>
